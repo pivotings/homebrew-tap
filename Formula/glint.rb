@@ -7,19 +7,19 @@ class Glint < Formula
   on_macos do
     on_intel do
       url "https://github.com/pivotings/glint/releases/download/v#{version}/glint-macos-x86_64.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_MACOS_X86_64"
+      sha256 "ef27a79e6ff6a557a014588265c482659133ac359c0546249560ec7becaf13ea"
     end
 
     on_arm do
       url "https://github.com/pivotings/glint/releases/download/v#{version}/glint-macos-arm64.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_MACOS_ARM64"
+      sha256 "3702652c0a9b61f519e8ca3fe91a7d31f73f139fce049df73ef6b8848d81ef02"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pivotings/glint/releases/download/v#{version}/glint-linux-x86_64.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_LINUX_X86_64"
+      sha256 "a6d32bf544a15643404e9ea4ab6819cbdfb4aa932bfb8f15f07a2559b5da79e9"
     end
   end
 
