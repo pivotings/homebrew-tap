@@ -1,30 +1,30 @@
 class Ecto < Formula
   desc "Next.js reconnaissance tool"
   homepage "https://github.com/pivotings/ecto"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/pivotings/ecto/releases/download/v#{version}/ecto-darwin-amd64.tar.gz"
-      sha256 "05f4e1a3b4db1be7fede32191eed56af2da2fff244e22cdac59c6c1c8ef9cec6"
+      sha256 "deb6290cb83fd12f078f745dcf12e8375d1ff4f846c9c9862470520267847caa"
     end
 
     on_arm do
       url "https://github.com/pivotings/ecto/releases/download/v#{version}/ecto-darwin-arm64.tar.gz"
-      sha256 "6fd392a8a4ecf0edc89f067d54b04c9be3152b2b938ecb9fcaaecce6e36b8894"
+      sha256 "98e62a73fe5a99ffed000875941bcd84042ee0909bfb3bd8c32686d5f6a8e316"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pivotings/ecto/releases/download/v#{version}/ecto-linux-amd64.tar.gz"
-      sha256 "ca1b71852e111fb61bc6e1bdebc29548d598f130ba4a4607b2a53388a1dfc941"
+      sha256 "f2cdccaee2b11c680b78b9652a9de812f1ca6a4c8a7f4766c666c4db145ccb48"
     end
 
     on_arm do
       url "https://github.com/pivotings/ecto/releases/download/v#{version}/ecto-linux-arm64.tar.gz"
-      sha256 "ca1b71852e111fb61bc6e1bdebc29548d598f130ba4a4607b2a53388a1dfc941"
+      sha256 "f2cdccaee2b11c680b78b9652a9de812f1ca6a4c8a7f4766c666c4db145ccb48"
     end
   end
 
