@@ -1,25 +1,25 @@
 class Glint < Formula
   desc "Git Log Intelligence - GitHub OSINT tool for analyzing commit history and user activity"
   homepage "https://github.com/pivotings/glint"
-  version "0.1.0"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/pivotings/glint/releases/download/v#{version}/glint-macos-x86_64.tar.gz"
-      sha256 "ef27a79e6ff6a557a014588265c482659133ac359c0546249560ec7becaf13ea"
+      sha256 "dd5414a310df0363f1ceab3f8e10c0df2d1f68125937082f32f40766004a38cf"
     end
 
     on_arm do
       url "https://github.com/pivotings/glint/releases/download/v#{version}/glint-macos-arm64.tar.gz"
-      sha256 "3702652c0a9b61f519e8ca3fe91a7d31f73f139fce049df73ef6b8848d81ef02"
+      sha256 "f481c70e056a1d8ff20e2f39cc436668b1bc55964a0300c7d52243cd55686555"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pivotings/glint/releases/download/v#{version}/glint-linux-x86_64.tar.gz"
-      sha256 "a6d32bf544a15643404e9ea4ab6819cbdfb4aa932bfb8f15f07a2559b5da79e9"
+      sha256 "e4353483241946368e133e29cd2036e7b3f898bf47c47adc27dfe773e92e7c3b"
     end
   end
 
