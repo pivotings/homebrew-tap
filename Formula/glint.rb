@@ -24,7 +24,19 @@ class Glint < Formula
   end
 
   def install
-    bin.install "glint"
+    on_linux do
+      on_intel do
+        bin.install "glint-linux-x86_64" => "glint"
+      end
+    end
+    on_macos do
+      on_intel do
+        bin.install "glint-macos-x86_64" => "glint"
+      end
+      on_arm do
+        bin.install "glint-macos-arm64" => "glint"
+      end
+    end
   end
 
   test do
